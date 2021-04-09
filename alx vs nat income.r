@@ -11,3 +11,6 @@ both <- both %>% transmute(
                         nat_income = as.numeric(B19113_001E.y),
                         alx_over_nat = alx_income / nat_income)
 colnames(both)
+
+
+
